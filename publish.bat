@@ -3,7 +3,7 @@ REM One-click publish for the Operations Analytics Dashboard repo (Windows).
 REM Requires: git, GitHub CLI (gh) authenticated (gh auth login).
 
 setlocal
-set REPO_NAME=ops-analytics-dashboard
+set REPO_NAME=Operations-analytics-dashboard
 set DESCRIPTION=Full-stack Operations Analytics portfolio project -- synthetic network reliability, incident management, field service and capacity data, demand/incident forecasting, explainable network-risk model, self-contained HTML dashboard (zero external dependencies). Fictional TelNova Communications ISP.
 set GIT_USER_NAME=Milad Shabani
 set GIT_USER_EMAIL=MILAD.SHABANI6515@GMAIL.COM
