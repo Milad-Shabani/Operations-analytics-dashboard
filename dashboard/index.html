@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Operations Analytics Dashboard — TelNova Communications</title>
 <meta name="description" content="Comprehensive operations analytics dashboard for TelNova Communications: network reliability, incident management, field service, customer support, capacity planning, maintenance and inventory.">
+<link rel="canonical" href="https://milad-shabani.github.io/Operations-analytics-dashboard/">
+<link rel="alternate" hreflang="en" href="https://milad-shabani.github.io/Operations-analytics-dashboard/">
+<link rel="alternate" hreflang="fa" href="https://milad-shabani.github.io/Operations-analytics-dashboard/fa/">
+<link rel="alternate" hreflang="x-default" href="https://milad-shabani.github.io/Operations-analytics-dashboard/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -168,6 +172,8 @@ window.TELNOVA_OPS_DATA = {"Uptime":[{"Month":"2022-10-01","Region":"Capital Reg
     .insight-grid{grid-template-columns:1fr;}
     .wrap{padding:0 18px;} .hero h2{font-size:25px;}
   }
+  .lang-switch{display:inline-flex;align-items:center;gap:7px;text-decoration:none;font-weight:600;font-family:Tahoma,'Segoe UI','Inter',system-ui,sans-serif;}
+  .lang-switch .lang-chip{font-family:'Inter',system-ui,sans-serif;font-size:10px;font-weight:700;letter-spacing:.04em;color:#fff;background:var(--teal);border-radius:5px;padding:2px 5px;line-height:1.2;}
 </style>
 </head>
 <body>
@@ -182,6 +188,7 @@ window.TELNOVA_OPS_DATA = {"Uptime":[{"Month":"2022-10-01","Region":"Capital Reg
       </div>
     </div>
     <div class="top-actions">
+      <a class="btn lang-switch" href="fa/index.html" hreflang="fa" lang="fa" title="مشاهده نسخه فارسی (Persian version)"><span class="lang-chip">FA</span> فارسی</a>
       <button class="btn" id="reload-live-btn" title="Re-read Operations_Analytics_Workbook.xlsx directly (works when this page is served over http/https)">↻ Reload live from Excel</button>
       <span id="status-pill"><span class="dot"></span><span id="status-text">Loading…</span></span>
     </div>
@@ -368,7 +375,7 @@ window.TELNOVA_OPS_DATA = {"Uptime":[{"Month":"2022-10-01","Region":"Capital Reg
         <p class="role">Creator · Operations Analytics Dashboard for TelNova Communications</p>
       </div>
       <div class="foot-links">
-        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://github.com/Milad-Shabani/Operations-analytics-dashboard" target="_blank" rel="noopener">GitHub</a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
       </div>
     </div>
